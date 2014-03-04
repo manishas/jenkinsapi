@@ -14,3 +14,7 @@ script:
     - pylint --rcfile=pylintrc jenkinsapi/*.py
     - nosetests jenkinsapi_tests
 #    - "nosetests jenkinsapi_tests/systests"
+
+notifications:
+    email:
+        -manisha@shippable.com
